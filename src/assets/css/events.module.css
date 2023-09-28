@@ -1,0 +1,144 @@
+.events {
+  padding: 0 40px;
+}
+.eventsHeading {
+  font-family: "Rubik";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  margin-bottom: 40px;
+}
+.eventsFilter {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.locationSelect {
+  border: 2px solid #dcdfe0;
+  outline: none;
+  border-radius: 4px;
+  width: 276px;
+  height: 48px;
+  padding: 12px 24px;
+}
+.locationSelect:hover {
+  border: 2px solid #dcdfe0;
+  outline: none;
+  border-radius: 4px;
+  width: 276px;
+  height: 48px;
+  padding: 12px 24px;
+}
+.locationSelect > optgroup {
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+  letter-spacing: 0.18px;
+}
+.locationSelect option {
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.16px;
+  padding: 20px 10px;
+}
+
+.fees {
+  display: flex;
+  align-items: center;
+  margin-left: 48px;
+}
+.eventsCard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-around;
+}
+.eventsPagination {
+  margin-top: 83px;
+}
+:root {
+  --pagination-color: var(--primary-color);
+  --pagination-font-family: "Lato";
+  --pagination-font-size: 18px;
+  --pagination-active-bg: var(--primary-color);
+}
+.prevButton {
+  margin-right: auto;
+  font-weight: 600;
+}
+.nextButton {
+  margin-left: auto;
+  font-weight: 600;
+}
+.searchBar {
+  margin-left: auto;
+  margin-right: 15px;
+  padding: 12px 24px;
+  display: flex;
+  border-radius: 36px;
+  background: #f6f6f6;
+  width: 350px;
+}
+.searchBar > input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  margin-left: 12px;
+  width: 350px;
+}
+.searchBar > input ::placeholder {
+  color: var(--grey-20, #4c4b55);
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  letter-spacing: 0.18px;
+}
+.eventsFilter {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.locationSelect {
+  border: 2px solid #dcdfe0;
+  outline: none;
+  border-radius: 4px;
+  width: 276px;
+  height: 48px;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+.locationSelect:hover {
+  border: 2px solid #dcdfe0;
+  outline: none;
+  border-radius: 4px;
+  width: 276px;
+  height: 48px;
+  padding: 12px 24px;
+}
+.locationSelect > optgroup {
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+  letter-spacing: 0.18px;
+}
+.locationSelect option {
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.16px;
+  padding: 20px 10px;
+}
+.locationText{
+  margin-right: 10px;
+}

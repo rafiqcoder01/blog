@@ -1,0 +1,70 @@
+.search{
+    padding: 25px 40px;
+}
+.searchHeading{
+    font-family: "Rubik";
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%;
+margin-bottom: 36px;
+}
+.main{
+    display: flex;
+}
+.article{
+    width: 65vw;
+    margin-right: 40px;
+}
+.popular{
+    width: 35vw;
+}
+.articleHeading{
+    font-family: Rubik;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%;
+border-bottom: 1px solid #DCDFE0;
+}
+
+.border{
+    border-bottom: 2px solid #25726D;
+    padding: 0 3px;
+    padding-bottom: 3px;
+}
+.popularTitle{
+    color: var(--grey-10, #26262C);
+font-family: Rubik;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 180%; /* 57.6px */
+}
+.prevButton {
+    margin-right: auto;
+    font-weight: 600;
+}
+.nextButton {
+    margin-left: auto;
+    font-weight: 600;
+}
+.pagination{
+    margin-top: 36px;
+}
+.glossary{
+    margin-top: 90px;
+}
+.glossaryHeading{
+    font-family: "Rubik";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    border-bottom: 1px solid #DCDFE0;
+}
+.glossaryHeadingText{
+    border-bottom: 2px solid #25726D;
+    padding-bottom: 4px;
+    padding-right: 5px;
+}

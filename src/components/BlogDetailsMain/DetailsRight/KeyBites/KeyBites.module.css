@@ -1,0 +1,72 @@
+.title {
+  position: relative;
+  font-size: var(--header-text-size);
+  line-height: 180%;
+  font-weight: 500;
+  font-family: var(--header-text);
+  color: #81298F;
+}
+.vectorIcon {
+  position: relative;
+  width: 15.33px;
+  height: 11.17px;
+}
+.check {
+  width: 20px;
+  height: 23px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-5xs) var(--padding-10xs) var(--padding-8xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.pointText {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  display: inline-block;
+  width: 758px;
+  flex-shrink: 0;
+}
+.keycontainer,
+.point {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.keycontainer {
+  position: absolute;
+  top: 28px;
+  left: 36px;
+  flex-direction: column;
+}
+.keybitesChild,
+.keybitesItem {
+  position: absolute;
+  border-radius: var(--br-9xs);
+  width: 241px;
+  height: 161px;
+}
+.keybitesChild {
+  top: 0.5px;
+  left: 0.5px;
+}
+.keybitesItem {
+  right: 0.5px;
+  bottom: 0.5px;
+}
+.keybites {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 322px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-lato);
+}

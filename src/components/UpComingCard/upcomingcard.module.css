@@ -1,0 +1,72 @@
+.upcomingcard{
+   width: 410px;
+    border-radius: 4px;
+background: #FFF;
+box-shadow: 0px 8px 48px 0px rgba(0, 0, 0, 0.06);
+margin-bottom: 36px;
+cursor: pointer;
+}
+.upcomingcard > img{
+    object-fit: cover;
+}
+.cardImage{
+    border-radius: 4px 4px 0 0 ;
+}
+.first{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding: 4px;
+}
+.cardHeading{
+    font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: bolder;
+line-height: 150%; /* 27px */
+}
+.cardDate{
+    color: #1A97FF;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 24px */
+letter-spacing: 0.16px;
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+}
+.cardDate > img{
+    margin-right: 8px;
+}
+.text{
+    padding-left: 20px;
+}
+.cardLocation{
+    font-family: "Lato";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0.16px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.cardLocation > img{
+    margin-right: 8px;
+}
+.shareButton{
+    width: 32px;
+height: 32px;
+border-radius: 50px;
+background-color: rgba(230, 238, 245, 0.60);
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 20px;
+}

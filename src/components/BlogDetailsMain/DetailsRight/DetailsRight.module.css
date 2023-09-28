@@ -1,0 +1,23 @@
+.similarPosts {
+  gap: var(--gap-5xl);
+}
+
+.sideContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 270px;
+  margin-left: 48px;
+}
+
+.sideContent {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  gap: 308px;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray);
+  font-family: var(--font-rubik);
+}

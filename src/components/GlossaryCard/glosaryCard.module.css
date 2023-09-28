@@ -1,0 +1,21 @@
+.glossaryCard{
+    padding: 36px 0;
+    border-bottom: 2px solid #EAEAEA;;
+}
+.title{
+font-family: "Lato";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 30px */
+letter-spacing: 0.2px;
+margin-bottom: 12px;
+}
+.text{
+    font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+letter-spacing: 0.16px;
+}

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Rubik:wght@400;500;700&display=swap');
+
+:root {
+  --bg-color: white;
+  --primary-color: #81298F;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap");
+
+:root {
+  /* fonts */
+  --blog-body-text: "Lato";
+  --header-text: "Rubik";
+  --font-lato: "Lato";
+
+  /* font sizes */
+  --body-text-size: 16px;
+  --blog-body-text-size: 20px;
+  --header-text-size: 24px;
+  --font-size-lg: 18px;
+  --blog-title-size: 36px;
+
+  /* Colors */
+  --color-whitesmoke: #f1f2f2;
+  --color-royalblue: #1652c7;
+  --color-gray-100: #26262c;
+  --color-gainsboro: #e4dee4;
+  --color-white: #fff;
+  --color-black: #000;
+  --grey-20: #4c4b55;
+  --color-darkslategray: #393737;
+
+  /* Gaps */
+  --gap-17xl: 36px;
+  --gap-xl: 20px;
+  --gap-5xs: 8px;
+  --gap-xs: 12px;
+  --gap-5xl: 24px;
+
+  /* Paddings */
+  --padding-xs: 12px;
+  --padding-5xl: 24px;
+  --padding-5xs: 8px;
+  --padding-10xs: 3px;
+  --padding-8xs: 5px;
+  --padding-7xs: 6px;
+
+  /* border radiuses */
+  --br-9xs: 4px;
+}
+
+body{
+  background: var(--bg-color);
+  font-family: 'Lato', sans-serif;
+}
+ul {
+  list-style: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.mainContainer{
+    max-width: 1440px;
+    margin: auto;
+    
+    
+}
+@media screen and (max-width: 1440px) {
+.mainContainer{
+    padding: 0 30px;
+    
+}
+}
+@media screen and (max-width: 968px) {
+.mainContainer{
+    padding: 0 24px;
+    width:100%;
+}
+}
+
+/* .mainContainer */
+
+@media screen and (max-width: 968px) {
+  .mainContainer{
+    padding: 0 24px;
+    
+}
+}
+
+
+.upCommingSwiper{
+
+    padding: 30px 0;
+  
+  width:100%;
+
+}
+.hr{
+  background: #DCDFE0;
+  height: 1px;
+  border: none;
+}

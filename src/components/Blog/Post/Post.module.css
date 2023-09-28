@@ -1,0 +1,123 @@
+.homearticles {
+  padding: 15px 30px;
+  margin-top: 20px;
+}
+.articlesHeading {
+  font-family: "Rubik";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 54px */
+  margin-bottom: 15px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.articleSection {
+  cursor: pointer;
+}
+.articleSectionHeading {
+  font-family: "Rubik";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 36px */
+  padding: 10px 0;
+
+  color: #000;
+}
+.articleSectionHeading > span {
+  padding: 13.9px 0;
+}
+.card {
+  margin: 24px 0;
+  padding-bottom: 10px;
+}
+.cardText {
+  padding: 15px 10px;
+}
+.cardImage {
+  width: 100%;
+}
+.cardHeading {
+  font-family: "Lato";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+  letter-spacing: 0.2px;
+}
+.postInfo ul {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  gap: 30px;
+}
+.postInfo ul li:first-child {
+  list-style: none !important;
+}
+
+.postInfo ul li {
+  list-style: disc;
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.16px;
+}
+
+.cardTimeImage {
+  margin-right: 8px;
+}
+
+.subArticle {
+  border-bottom: 1px solid #eaeaea;
+  padding: 10px 0;
+}
+.subarticleHeading {
+  font-family: "Lato";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+  letter-spacing: 0.2px;
+}
+.reform {
+  padding: 15px 5px;
+}
+.timeContainer {
+  display: flex;
+  align-items: center;
+}
+.cardImageContainer {
+  
+  position: relative;
+}
+.cardImageContainer img {
+  border-radius: 5px;
+}
+.cardImageContainer .postTags {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  gap: 10px;
+}
+.cardImageContainer .postTags .postTag {
+  background: #fff;
+  color: #1652c7;
+  font-family: "Lato";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 18px */
+  letter-spacing: 0.12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 20px;
+  border-radius: 20px;
+}

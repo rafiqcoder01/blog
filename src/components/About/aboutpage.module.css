@@ -1,0 +1,205 @@
+.about {
+  padding: 25px 40px;
+  display: flex;
+}
+.right {
+  width: 30%;
+}
+.left {
+  width: 70%;
+  margin-right: 48px;
+}
+.aboutHeading {
+  font-family: "Rubik";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  margin-bottom: 48px;
+}
+.postHeading {
+  color: #26262c;
+  font-family: "Rubik";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  margin-bottom: 24px;
+}
+.vision {
+  border-radius: 16px;
+  background: rgba(129, 41, 143, 0.1);
+  padding: 16px;
+  margin-bottom: 64px;
+}
+.visionTitle {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-family: "Rubik";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  border-bottom: 1px solid #95c5c2;
+}
+.visionText {
+  color: #26262c;
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 180%; /* 43.2px */
+  letter-spacing: 0.24px;
+}
+.storyHeading {
+  font-family: "Rubik";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #dcdfe0;
+}
+.storyText {
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0.16px;
+  padding-top: 12px;
+  margin-bottom: 24px;
+}
+.value {
+  margin-top: 64px;
+}
+.valueHeading {
+  font-family: "Rubik";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #dcdfe0;
+}
+.valueItems {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 24px;
+  margin-top: 12px;
+  padding-top: 6px;
+}
+.valueItem {
+  margin-bottom: 36px;
+}
+.valueTitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.valueTitle > p {
+  font-family: "Rubik";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  margin-left: 8px;
+}
+.valueDesc {
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 28.8px */
+  letter-spacing: 0.16px;
+}
+.postTitle {
+  color: #26262c;
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.18px;
+  margin-bottom: 12px;
+}
+.post {
+  cursor: pointer;
+  padding: 16px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+.postInfo,
+.time,
+.tag {
+  display: flex;
+  align-items: center;
+}
+.tag > p {
+  margin: 0 10px;
+  margin-right: 20px;
+}
+.postInfo > li > span {
+  position: relative;
+  left: -8px;
+}
+.time > img {
+  margin-right: 8px;
+}
+.time > p {
+  color: #4c4b55;
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.16px;
+}
+.featured {
+  margin-top: 240px;
+}
+.featured > img {
+  border-radius: 5px;
+  margin-bottom: 16px;
+}
+
+.featuredHeading {
+  color: #26262c;
+  font-family: "Rubik";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 180%;
+  margin-bottom: 24px;
+}
+.featuredTitle {
+  color: #000;
+  font-family: "Lato";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+.featuredSubtitle {
+  display: flex;
+  margin-top: 8px;
+  align-items: center;
+}
+.featuredSubtitle > img {
+  margin: 0 16px;
+}
+.subName {
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.16px;
+}
+.featuredTime {
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.16px;
+}

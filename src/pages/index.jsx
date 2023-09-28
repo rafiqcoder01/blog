@@ -1,0 +1,10 @@
+export { default as About } from "./About";
+export { default as Blog } from "./Blog";
+export { default as BlogDetails } from "./BlogDetails";
+export { default as Companies } from "./Companies";
+export { default as EventDetail } from "./EventDetail";
+export { default as Events } from "./Events";
+export { default as Home } from "./Home";
+export { default as SearchResult } from "./SearchResult";
+export { default as Category } from "./Category";
+export { default as TermsPage } from "./TermsPage";

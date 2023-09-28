@@ -1,0 +1,294 @@
+/* Footer Container */
+.footer {
+  background-color: #fff;
+  padding: 48px 0;
+  padding-bottom: 0;
+  color: #191b1c;
+  border-top: 6px solid #edf2f7;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+}
+
+/* About Our Company Section */
+.aboutContainer {
+  width: 577px;
+}
+
+.aboutTitle {
+  color: var(--grey-30, #15181b);
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  letter-spacing: 0.36px;
+  margin-bottom: 24px;
+}
+
+.aboutText {
+  color: white;
+  margin-top: 10px;
+  border-bottom: 1px solid #3d4246;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.16px;
+  padding-bottom: 36px;
+}
+
+.joinNewsletter {
+  margin-top: 20px;
+}
+
+.newsLetterContainer {
+  display: flex;
+  margin-top: 10px;
+}
+
+.newsLetterContainer input[type="email"] {
+  border: 1px solid #191b1c;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #fff;
+  color: #191b1c;
+  width: 376px;
+  margin-right: 10px;
+}
+
+.newsLetterContainer button {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+/* ... Your existing styles ... */
+
+/* Newsletter Section */
+.joinNewsletter p {
+  padding-top: 36px;
+  color: #191b1c;
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.16px;
+  margin-top: 75px;
+  border-top: 1px solid #dcdfe0;
+}
+
+.newsLetterContainer {
+  display: flex;
+  margin-top: 10px;
+}
+
+.newsLetterContainer input[type="text"] {
+  background-color: #191b1c;
+  color: #191b1c;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid var(--grey-30, #8a9095);
+  padding: 12px 16px;
+  margin-right: 10px;
+  margin-bottom: 74px;
+  width: 376px;
+  display: flex;
+  width: 376px;
+  padding: 12px 16px;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Styling the placeholder text */
+.newsLetterContainer input[type="text"]::placeholder {
+  color: var(--grey-30, #8a9095);
+
+  /* Body Text */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.16px;
+}
+
+.newsLetterContainer button {
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  cursor: pointer;
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  height: 44px;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+  padding: 10px 20px;
+}
+
+/* Company Links Section */
+.linksSection {
+  flex: 1;
+  margin-left: 136px;
+  color: #191b1c;
+}
+
+.linkiconContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footerSection a {
+  margin: 10px 0;
+  color: #191b1c;
+
+  /* Body Text */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  text-decoration: none;
+  letter-spacing: 0.16px;
+}
+
+/* Social Icons Section */
+.socialMediaContainer {
+  flex: 1;
+  margin-left: 30px;
+
+  color: #191b1c;
+}
+
+.connect {
+  display: flex;
+
+  color: #191b1c;
+}
+
+.socialMediaLink {
+  color: #191b1c;
+  font-size: 24px;
+  margin-right: 15px;
+}
+
+/* Copyright Section */
+.copyrigthContainer {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 0;
+  text-align: center;
+  border-top: 1px solid #dcdfe0;
+
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+  letter-spacing: 0.14px;
+  padding-top: 36px;
+  padding-bottom: 36px;
+
+  margin-top: 77px;
+}
+.footerlogo {
+  margin-bottom: 36px;
+}
+.logo_b {
+  width: 38px;
+}
+.logo_name {
+  width: 124px;
+}
+.mobileJoinNewsletter{
+  display: none;
+}
+
+
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .footerContainer {
+    padding: 0 30px;
+     width: 100vw;
+  }
+
+  .aboutContainer {
+    width: 100%;
+    border-bottom: 1px solid #dcdfe0;
+    padding-bottom: 20px;
+  }
+
+  .aboutText {
+    width: 100%;
+  }
+
+  .aboutTitle {
+    width: 100%;
+  }
+
+  .aboutContainer {
+    margin-bottom: 30px;
+  }
+
+  .linksSection {
+    margin-left: 0;
+    text-align: center;
+    
+  }
+
+ 
+
+  .socialMediaContainer {
+    margin-left: 0;
+    text-align: center;
+  }
+  .connect{
+    display: flex;
+    color: #191b1c;
+    justify-content: center;
+}
+  .footerContainer {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+  }
+  .joinNewsletter {
+    margin-top: 36px;
+    display: none;
+}
+.mobileJoinNewsletter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 36px;
+  padding-top: 20px;
+  
+  border-top: 1px solid #dcdfe0;
+  gap: 16px;
+  margin-bottom: 36px;
+}
+  .newsLetterContainer {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    gap:16px;
+    align-items: flex-start;
+}
+}

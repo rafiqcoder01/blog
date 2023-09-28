@@ -1,0 +1,36 @@
+.homeupcoming {
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  display: flex;
+  align-items: center;
+}
+.heading {
+  font-family: "Rubik";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: bolder;
+  margin: 25px 0;
+}
+.headingView {
+  color: var(--primary-color);
+  font-family: "Rubik";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  transform: translateX(36px);
+  text-decoration: none;
+}
+.headingView > img{
+    margin-left: 5px;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+}

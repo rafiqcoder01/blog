@@ -1,0 +1,102 @@
+
+[
+  {
+    "id": 1,
+    "event": "Divyanshu's Incoronation",
+    "date": "2023-08-31",
+    "time": "05:30:00",
+    "date_posted": "2023-08-28T09:03:02Z",
+    "about_event": "Divyanshu Rana will be announced as new king of his Kingdom.",
+    "location": "Ghaziabad",
+    "image": "./assets/img1.png",
+    "organizer": 1
+  },
+  {
+    "id": 2,
+    "event": "dfghj",
+    "date": "2023-12-03",
+    "time": "05:30:00",
+    "date_posted": "2023-08-28T09:18:50.419190Z",
+    "about_event": "new event",
+    "location": "Delhi",
+    "image": "./assets/img2.png",
+    "organizer": 1
+  },
+  {
+    "id": 3,
+    "event": "dfghj",
+    "date": "2023-12-03",
+    "time": "05:30:00",
+    "date_posted": "2023-08-28T09:18:50.419190Z",
+    "about_event": "new event",
+    "location": "Delhi",
+    "image": "./assets/img2.png",
+    "organizer": 1
+  },
+  {
+    "id": 4,
+    "event": "dfghj",
+    "date": "2023-12-03",
+    "time": "05:30:00",
+    "date_posted": "2023-08-28T09:18:50.419190Z",
+    "about_event": "new event",
+    "location": "Delhi",
+    "image": "./assets/img2.png",
+    "organizer": 1
+  },
+  {
+    "id": 1,
+    "event": "Divyanshu's Incoronation",
+    "date": "2023-08-31",
+    "time": "05:30:00",
+    "date_posted": "2023-08-28T09:03:02Z",
+    "about_event": "Divyanshu Rana will be announced as new king of his Kingdom.",
+    "location": "Ghaziabad",
+    "image": "./assets/img1.png",
+    "organizer": 1
+  },
+  {
+    "id": 2,
+    "event": "dfghj",
+    "date": "2023-12-03",
+    "time": "05:30:00",
+    "date_posted": "2023-08-28T09:18:50.419190Z",
+    "about_event": "new event",
+    "location": "Delhi",
+    "image": "./assets/img2.png",
+    "organizer": 1
+  },
+  {
+    "id": 3,
+    "event": "dfghj",
+    "date": "2023-12-03",
+    "time": "05:30:00",
+    "date_posted": "2023-08-28T09:18:50.419190Z",
+    "about_event": "new event",
+    "location": "Delhi",
+    "image": "./assets/img2.png",
+    "organizer": 1
+  },
+  {
+    "id": 4,
+    "event": "dfghj",
+    "date": "2023-12-03",
+    "time": "05:30:00",
+    "date_posted": "2023-08-28T09:18:50.419190Z",
+    "about_event": "new event",
+    "location": "Delhi",
+    "image": "./assets/img2.png",
+    "organizer": 1
+  },
+  {
+    "id": 3,
+    "event": "dfghj",
+    "date": "2023-12-03",
+    "time": "05:30:00",
+    "date_posted": "2023-08-28T09:18:50.419190Z",
+    "about_event": "new event",
+    "location": "Delhi",
+    "image": "./assets/img2.png",
+    "organizer": 1
+  }
+]

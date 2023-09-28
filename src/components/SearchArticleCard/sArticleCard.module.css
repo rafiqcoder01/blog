@@ -1,0 +1,51 @@
+.sArticleCard{
+    display: flex;
+    border-top: 2px solid #EAEAEA;
+    padding: 36px 0;
+}
+.image{
+    border-radius: 5px;
+}
+.text{
+    margin-left: 24px;
+}
+.title{
+    font-family: "Lato";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 30px */
+letter-spacing: 0.2px;
+margin-bottom: 8px;
+}
+.dateTime{
+    display: flex;
+    align-items: center;
+}
+.date{
+    font-family: "Lato";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+letter-spacing: 0.16px;
+}
+.time{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.dot{
+    display: flex;
+    align-items: center;
+    margin: 0 12px;
+}
+.timeText{
+    font-family: "Lato";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+letter-spacing: 0.16px;
+margin-left: 8px;
+}

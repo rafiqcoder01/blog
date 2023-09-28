@@ -1,0 +1,105 @@
+.subTitle {
+  position: relative;
+  font-size: 32px;
+  line-height: 150%;
+  font-weight: 500;
+  display: flex;
+  align-items: flex-end;
+  width: 400px;
+  color: #000;
+  font-family: "Rubik";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 48px */
+}
+.date {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.joinOurCommunity {
+  margin: 0;
+}
+.subContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.subContainer {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 180%;
+  font-family: var(--body-text);
+  color: #26262c;
+  display: flex;
+  align-items: flex-end;
+  width: 400px;
+}
+.enterYourEmail {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 150%;
+}
+.email {
+  border-radius: var(--br-9xs);
+  border: 2px solid #eaeaea;
+  box-sizing: border-box;
+  width: 312px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 12px 16px;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--disabled-text-grey);
+  font-family: var(--body-text);
+}
+.letsGo {
+  letter-spacing: 0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  border-radius: var(--br-9xs);
+  background-color: #26262C;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 20px;
+color: #FFF;
+font-family: "Rubik";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 24px */
+letter-spacing: 0.32px;
+border: none;
+}
+.itsAbsolutelyFree {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  font-family: var(--body-text);
+  color: var(--grey-20);
+  display: flex;
+  align-items: flex-end;
+  width: 226px;
+  flex-shrink: 0;
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  color: #fff;
+}
+.subscriptionCard {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  text-align: left;
+  font-size: var(--body-text-size);
+  color: #000;
+  font-family: var(--font-rubik);
+}

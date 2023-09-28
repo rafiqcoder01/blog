@@ -1,0 +1,83 @@
+.container {
+  border-top: 1px solid var(--stroke-grey, #DCDFE0);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 95px 0;
+  padding: 48px 0;
+}
+
+.input {
+  border-radius: 4px;
+  border: 1px solid var(--grey-30, #8a9095);
+  background: #fff;
+  margin-right: 10px;
+
+  width: 376px;
+  padding: 12px 16px;
+  align-items: center;
+  gap: 10px;
+}
+
+.container .emailArea input::placeholder {
+  color: var(--grey-30, #8a9095);
+
+  /* Body Text */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.16px;
+}
+
+.container h2 {
+  max-width: 600px;
+  text-align: center;
+
+  /* Header text */
+  font-family: "Rubik";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 180%; /* 43.2px */
+}
+
+.container p {
+  margin-top: 12px;
+  text-align: center;
+
+  /* Body Text */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.16px;
+}
+
+.emailArea {
+  display: flex;
+  margin-top: 20px;
+}
+
+.container .button {
+  border: none;
+  display: flex;
+  border-radius: 36px;
+  background: var(--grey-10, #26262C);
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-family: "Rubik";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.32px;
+  cursor: pointer;
+}

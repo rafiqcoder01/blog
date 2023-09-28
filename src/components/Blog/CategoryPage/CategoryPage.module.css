@@ -1,0 +1,71 @@
+.articleSectionHeading {
+  font-family: "Rubik";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 36px */
+  padding: 10px 0;
+  border-bottom: 2px solid #dcdfe0;
+  color: #394250;
+  margin-bottom: 20px;
+
+  padding-bottom: 23px;
+  margin-bottom: 72px;
+}
+.articleSectionHeading > span {
+  border-bottom: 2px solid #25726d;
+  padding: 13.9px 0;
+
+  padding-bottom: 27px;
+}
+.recentPost {
+  display: flex;
+  width: 100%;
+  gap: 24px;
+  justify-content: space-between;
+  margin-bottom: 193px;
+}
+.recentPostContainer {
+  padding-bottom: 36px;
+}
+.sideCardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.PostsSec {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  width: 50%;
+}
+.cardBorder {
+  border: 1px solid var(--stroke-grey, #dcdfe0);
+
+  border-radius: 4px;
+}
+.borderContainer {
+  border-bottom: 1px solid var(--stroke-grey, #dcdfe0);
+  padding-bottom: 24px;
+  margin-bottom: 4px;
+}
+.container {
+  padding: 0 34px;
+}
+.eventsPagination {
+  margin-bottom: 83px;
+}
+:root {
+  --pagination-color: var(--primary-color);
+  --pagination-font-family: "Lato";
+  --pagination-font-size: 18px;
+  --pagination-active-bg: var(--primary-color);
+}
+.prevButton {
+  margin-right: auto;
+  font-weight: 600;
+}
+.nextButton {
+  margin-left: auto;
+  font-weight: 600;
+}
